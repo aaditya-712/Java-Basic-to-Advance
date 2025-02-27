@@ -1,0 +1,16 @@
+GIT cmds
+
+1. clone - Cloning a repository on our local machine
+	git clone <some link>
+
+2. status - displays the state of the code
+	git status
+
+ADD & COMMIT
+1. add - adds new or changed files in your working directory to the Git staging area.
+	git add <file name>	or
+	git add .	//to add all files at once
+
+2. commit - it is the record of change
+	git commit -m "some message"
+	
