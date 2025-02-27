@@ -1,0 +1,5 @@
+1. The compiler assigns a default value to an uninitialized local variable in Java Programming. Whether this statement is true or false?
+    a. True
+    b. False ** 
+
+2. 

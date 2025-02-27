@@ -1,0 +1,53 @@
+Access Modifiers:
+    1. public - roads
+    2. private - phone
+    3. protected - assets like properties
+    4. default - automatically specified when above not given
+                 like TV, fridge,etc
+
+Q. Creating an object from a class is known as?
+    Instantiating
+
+How to declare Methods:
+    public class Main {
+        public int sum(int a, int b){
+            // code to be executed
+        }
+    }
+
+Static Variable                         Instance Variable
+1. static int a;                        1. int b;
+2. single copy for whole class          2. all objects will create their own copies
+3. object independent                   3. object dependent
+
+
+both Methods and Variables can be 'static'
+
+
+ACCESS MODIFIERS:
+
+                within class        outside class       outside package,        outside package
+                                                        non-child               child
+=================================================================================================
+public          yes                 yes                 yes                     yes
+-------------------------------------------------------------------------------------------------
+private         yes                 no                  no                      no
+-------------------------------------------------------------------------------------------------
+protected       yes                 yes                 no                      yes
+-------------------------------------------------------------------------------------------------
+default         yes                 yes                 no                      no
+
+
+
+SCOPE OF VARIABLE - कहा कहा पर variable accessable उसे socpe of vaiable कहते हे
+
+
+MEMORY ALLOCATION IN JAVA:
+    Stack Memory: Primitive Data type, reference vairable, functions
+    Heap Memory: Object
+
+
+TO COPY ARRAY USE .clone() function
+    1. DEEP COPY : int[] arr2 = arr.clone();
+    2. SHALLOW COPY : int[] arr2 = arr;
+    3. Array.copy(arrayName, length) : int[] arr2 = Arrays.copyOf(arr, arr.length);

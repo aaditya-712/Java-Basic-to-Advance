@@ -1,0 +1,38 @@
+A. Primitive Data Types
+    1. boolean - true/false;
+
+    2. char - char ch = 'a';
+              size : 2 bytes = 16 bits
+
+    3. byte - byte b = 60;
+              size : 1 byte = 8 bits
+              range : -128 to 127
+
+    4. short - short s = 1000;
+               size : 2 bytes = 16 bits
+               range : -32,768 to 32,767
+
+    5. int - int a = 1234;
+             size : 4 bytes = 32 bits   
+             range : -2^31 to 2^31 - 1 
+
+    6. long - long a = 12345678;
+              size : 8 bytes = 64 bits
+              range : -2^63 to 2^63 - 1
+
+    7. float - float f = 1234.456f;
+               size : 4 bytes = 32 bits
+
+    8. double - double d = 12323123.3434523;
+                size : 8 bytes = 64 bits
+
+
+B. Non Primitive Data Types
+    1. Strings
+        name = "Aaditya"
+
+    2. Array
+
+    3. Classes
+
+    4. Interfaces

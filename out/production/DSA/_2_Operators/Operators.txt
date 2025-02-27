@@ -1,0 +1,12 @@
+Java Operators:
+    1. Arithmetic Operators: +, -, *, /, %, ++, --
+
+    2. Relational Operators: ==, !=, >, <, >=, <=
+
+    3. Logical Operator: &&, ||, !
+
+    4. Assignment Operater: =, +=, -=, /=, %=
+
+    5. Unary Operators: +, -, ++, --, !
+
+    6. Bitwise Operators

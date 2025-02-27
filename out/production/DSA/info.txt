@@ -1,0 +1,25 @@
+class --> a user defined blueprint containing attributes and methods
+Example:
+    class Car
+        Attributes of class: company, brand, color, price
+        Methods of class: run(), openTrunk(), openWindow()
+        Instances of class: Audi, BMW
+
+public static void main(String[] args)
+    public - access modifier
+    static - allows to call this method without creating an object
+    void - return type
+    main - function name (entry point of program)
+    (string[] args) - list of arguments (commandline arguments)
+
+System.out.println()
+    System - class
+    out - obj of PrintStream
+    println - method in PrintStream
+
+Naming Convention
+    functions, variables - camelcase (collegeWallah)
+    class - Pascal (CollegeWallah)
+    pakages - lowercase (college)
+    constant - upper snake case (MIN_CAPACITY)
+    

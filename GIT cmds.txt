@@ -13,4 +13,7 @@ ADD & COMMIT
 
 2. commit - it is the record of change
 	git commit -m "some message"
+
+PUSH COMMAND
+	git push origin main
 	
